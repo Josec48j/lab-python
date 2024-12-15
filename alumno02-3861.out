@@ -1,0 +1,84 @@
+Time taken by reduction operation: 0.2537844181060791 seconds
+229 ms ± 338 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 499999500000
+
+Time taken by reduction operation using for loop: 0.20789694786071777 seconds
+Time taken by reduction operation using sum(): 0.030497074127197266 seconds
+
+	 Suma calculada usando el bucle for: 499999500000
+
+	 Suma calculada usando sum(): 499999500000
+Time taken by reduction operation using for loop (numpy array): 0.6390085220336914 seconds
+Time taken by reduction operation using np.sum(): 0.0022878646850585938 seconds
+
+	 Suma calculada usando el bucle for (numpy array): 499999500000
+
+	 Suma calculada usando np.sum(): 499999500000
+Time taken by @njit with for loop: 3.767247438430786 seconds
+Result with for loop: 499999500000
+Time taken by @njit with numpy sum: 1.1545827388763428 seconds
+Result with numpy sum: 499999500000
+Número de elementos a procesar: 10000000
+Time taken by reduction operation: 2.570056676864624 seconds
+
+	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time taken by reduction operation using for loop: 2.2317678928375244 seconds
+Time taken by reduction operation using sum(): 0.33783698081970215 seconds
+
+	 Suma calculada usando el bucle for: 49999995000000
+
+	 Suma calculada usando sum(): 49999995000000
+Time taken by reduction operation using for loop (numpy array): 6.611384391784668 seconds
+Time taken by reduction operation using np.sum(): 0.013995885848999023 seconds
+
+	 Suma calculada usando el bucle for (numpy array): 49999995000000
+
+	 Suma calculada usando np.sum(): 49999995000000
+Time taken by @njit with for loop: 0.8545660972595215 seconds
+Result with for loop: 49999995000000
+Time taken by @njit with numpy sum: 0.671123743057251 seconds
+Result with numpy sum: 49999995000000
+Time taken by reduction operation: 0.25688600540161133 seconds
+238 ms ± 4.18 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 499999500000
+
+Time taken by reduction operation using for loop: 0.20688176155090332 seconds
+Time taken by reduction operation using sum(): 0.030377626419067383 seconds
+
+	 Suma calculada usando el bucle for: 499999500000
+
+	 Suma calculada usando sum(): 499999500000
+Time taken by reduction operation using for loop (numpy array): 0.6249403953552246 seconds
+Time taken by reduction operation using np.sum(): 0.0022611618041992188 seconds
+
+	 Suma calculada usando el bucle for (numpy array): 499999500000
+
+	 Suma calculada usando np.sum(): 499999500000
+Time taken by @njit with for loop: 2.1709539890289307 seconds
+Result with for loop: 499999500000
+Time taken by @njit with numpy sum: 1.1415786743164062 seconds
+Result with numpy sum: 499999500000
+Número de elementos a procesar: 100000000
+Time taken by reduction operation: 25.557326793670654 seconds
+
+	 Computing the sum of numbers in the range [0, value): 4999999950000000
+
+Time taken by reduction operation using for loop: 19.559771299362183 seconds
+Time taken by reduction operation using sum(): 3.1980035305023193 seconds
+
+	 Suma calculada usando el bucle for: 4999999950000000
+
+	 Suma calculada usando sum(): 4999999950000000
+Time taken by reduction operation using for loop (numpy array): 67.99608397483826 seconds
+Time taken by reduction operation using np.sum(): 0.12192440032958984 seconds
+
+	 Suma calculada usando el bucle for (numpy array): 4999999950000000
+
+	 Suma calculada usando np.sum(): 4999999950000000
+Time taken by @njit with for loop: 4.9579901695251465 seconds
+Result with for loop: 4999999950000000
+Time taken by @njit with numpy sum: 2.8440279960632324 seconds
+Result with numpy sum: 4999999950000000
