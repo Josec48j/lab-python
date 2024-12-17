@@ -13,3 +13,5 @@ module load anaconda/2023.03
 ipython reduc-operation-alumno02.ipynb 10000000 #para 10^7
 ipython reduc-operation-alumno02.ipynb 100000000 #para 10^8
 
+#Salir del modulo de Python
+module unload anaconda/2023.03
